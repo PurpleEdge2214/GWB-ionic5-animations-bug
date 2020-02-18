@@ -13,6 +13,10 @@ On the new page, swipe from left to right to close the new page
 
 An error occurs on the first or second opening and closing of the page.
 
+"Uncaught TypeError: Failed to set the 'currentTime' property on 'Animation': The provided double value is non-finite."
+
+Ionic Info:
+
 Ionic:
 
    Ionic CLI                     : 6.1.0 (C:\Users\User\AppData\Roaming\npm\node_modules\@ionic\cli)
