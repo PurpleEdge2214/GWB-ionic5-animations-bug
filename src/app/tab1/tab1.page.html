@@ -13,5 +13,21 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  <ion-item>
+    <button [routerLink]="['/newpage/']" routerDirection="forward">
+      Open a new page
+      <ion-icon slot="end" name="arrow-redo-circle-outline"></ion-icon>
+    </button>
+  </ion-item>
+  <ion-item>
+    <ion-label class="ion-text-wrap">
+      Steps to reproduce:<br />
+      run using "ionic serve"<br />
+      In Windows Chrome in debug mode F12, use an IOS preview<br />
+      Press the button to open a new page <br />
+      On the new page swipe from left to right to close the page, might have to do it a couple of times before the error occurs.
+    </ion-label>
+  </ion-item>
+
 </ion-content>
